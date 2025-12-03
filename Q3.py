@@ -118,7 +118,7 @@ def plot_surface(func, title, pos):
     ax3.set_xlabel('x1')
     ax3.set_ylabel('x2')
     
-    plt.tight_layout()
+    # plt.tight_layout()
     plt.savefig("Q3-Part_B.png")
     plt.show()
 
